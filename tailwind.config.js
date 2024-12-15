@@ -10,7 +10,8 @@ export default {
         "text-color":"rgb(80, 95, 152)"
       },
       backgroundColor:{
-        "btn-bg":"rgb(17, 27, 71)"
+        "btn-bg":"rgb(17, 27, 71)",
+        "footer-bg":"rgb(231, 236, 255)"
       }
     },
   },
