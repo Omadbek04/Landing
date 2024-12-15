@@ -3,7 +3,7 @@ const Modal = ({ closeModal, isOpen }) => {
     <>
       {/* Modal */}
       {isOpen && (
-        <div id="default-modal" tabIndex="-1" aria-hidden="true" className="fixed top-0 right-0 left-0 z-50 flex justify-center items-center w-full h-screen bg-black bg-opacity-50">
+        <div onClick={closeModal} id="default-modal" tabIndex="-1" aria-hidden="true" className="fixed top-0 right-0 left-0 z-50 flex justify-center items-center w-full h-screen bg-black bg-opacity-50">
           <div className="relative p-4 w-full max-w-2xl max-h-full">
             {/* Modal content */}
             <p className=" text-white text-center">Assalomu Alaykum</p>

@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className=" py-[18px]">
+      <nav className=" py-[18px] sticky top-0 left-0 z-[99]">
         <div className=" flex justify-between items-center">
           <div className=" hidden md:flex items-center gap-8 text-[14px] text-text-color  font-normal leading-6">
             <a href="/#">Home</a>
@@ -34,7 +34,7 @@ const Navbar = () => {
             <img src={Logo} alt="Landing logo" loading="lazy" />
           </div>
           <div className=" flex  items-center gap-3">
-            <Button  openModal={openModal} size={160}>
+            <Button  openModal={openModal} size={160} type="click">
               Buy Now
             </Button>
 

@@ -1,10 +1,17 @@
-import { Navbar } from "./components";
+import { Home, Navbar } from "./components";
 
 const App = () => {
   return (
-    <div className="conatainer_wraper">
-      <Navbar />
-    </div>
+    <>
+    <header className="header">
+    <div className="bg-hero"></div>
+      <div className="conatainer_wraper">
+        <Navbar />
+        <Home />
+      </div>
+      </header>
+     
+      </>
   );
 };
 
