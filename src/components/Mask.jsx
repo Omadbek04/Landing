@@ -6,7 +6,7 @@ const Mask = () => {
   return (
     <section className="conatainer_wraper">
       <div className=" flex flex-col md:flex-row gap-10 md:gap-0 justify-between mt-12 md:mt-24  items-center">
-        <article className=" w-full md:w-[50%] flex flex-col  gap-10">
+        <article className=" w-full md:w-[50%] flex flex-col gap-10">
           <div>
             <h3 className="title-content mb-4">{title}</h3>
             <p className="text-content mb-3">{text1}</p>
