@@ -11,7 +11,7 @@
 
 /* hero section bg image */
 .bg-hero {
-  background-image: url("./assets//img/hero-bg.png");
+  background-image: url("./assets/img/hero-bg.png");
   background-repeat: no-repeat;
   /* Path */
   position: absolute;
@@ -51,6 +51,7 @@
   font-weight: 400;
   line-height: 26px;
 }
+
 /* mask component qayta ishlatilgan stylar */
 .mask-text {
   color: rgb(93, 105, 112);
@@ -58,6 +59,29 @@
   font-weight: 400;
   line-height: 18px;
 }
+
+/* price component */
+.price {
+background: rgb(231, 236, 255);
+   padding: 100px 0;
+}
+.price-text {
+  color: rgb(111, 124, 178);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.price-title {
+  color: rgb(9, 17, 51);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
 /* media quarey barcha textlar uchun */
 @media screen and (max-width: 600px) {
   .all_text {

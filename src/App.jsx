@@ -1,4 +1,4 @@
-import { Content, Home, Mask, Navbar } from "./components";
+import { Content, Home, Mask, Navbar, Price } from "./components";
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
       </header>
       <Mask />
       <Content />
+      <Price/>
     </>
   );
 };
