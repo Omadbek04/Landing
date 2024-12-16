@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { hero } from "../assets/img";
 import Button from "../ui/Button";
 
 const Home = () => {
   return (
-    <section className=" flex md:flex-row flex-col gap-10 md:gap-0 items-center justify-between mt-6 md:mt-20">
-      <div className=" w-full md:w-[50%]  pt-[10%] md:pt-[20%]">
+    <section  className=" flex md:flex-row flex-col gap-10 md:gap-0 items-center justify-between mt-6 md:mt-20">
+      <div className=" w-full md:w-[50%]  pt-[10%] md:pt-[20%]" >
         <h3 className=" text-[40px] md:text-[50px] mb-3 md:mb-5">Introduce Your Product Quickly & Effectively</h3>
         <p className="all_text mb-3 md:mb-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
         <div className=" gap-3 flex justify-between">

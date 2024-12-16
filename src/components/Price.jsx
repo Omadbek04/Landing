@@ -1,10 +1,15 @@
 import Button from "../ui/Button";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const Price = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  });
   return (
     <div className=" overflow-hidden">
-      <section className=" price flex items-center">
-        <div className="conatainer_wraper  ">
+      <section className=" price flex items-center" >
+        <div className="conatainer_wraper  " data-aos="zoom-in-down">
           <h2 className="price-title mb-4">A Price To Suit Everyone</h2>
           <p className="price-text mb-14">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
          

@@ -1,10 +1,16 @@
+import { useEffect } from "react";
 import { facebok, instagram, linkedin, Logo, twiter, youtube } from "../assets/icons";
 import Button from "../ui/Button";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Footer = () => {
+useEffect(() => {
+  Aos.init({ duration: 1000 });
+});
   return (
     <footer className=" bg-footer-bg pt-[62px] pb-[30px]">
-      <div className="conatainer_wraper">
+      <div className="conatainer_wraper" data-aos="zoom-in-down">
         <div className=" flex items-center justify-between  pb-8 mb-8 border-b border-b-text-color flex-col md:flex-row gap-4">
           <p className=" text-gray-500">©{new Date().getFullYear()} Yourcompany</p>
           <img src={Logo} alt=" logo" />
